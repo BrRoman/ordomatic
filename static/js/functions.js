@@ -107,7 +107,7 @@ function component(date, year, month, day, weekday, before, color, header, body,
     }
   } else {
     block_new_year = '';
-    if (day == 1) {
+    if (day == 1 && month != 11) {
       month = date.getMonth();
       block_new_month = '<div class="month green my-3">' + month_human_readable(month) + '</div>';
     } else {
