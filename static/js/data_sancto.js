@@ -148,7 +148,9 @@ const days_sancto = {
     'before': '',
     'color': 'white',
     'header': '<span class="festum">In Præsentatione Domini - Festum.</span>',
-    'body': '<ul><li>Ante Missam fit processio candelarum.</li></ul>',
+    'body': '<ul>\
+              <li>Ante Missam fit processio candelarum.</li>\
+            </ul>',
     'after': '',
   },
   '02_03': {
