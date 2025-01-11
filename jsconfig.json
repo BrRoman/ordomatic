@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/local_collection_driver.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/collection.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/connection_options.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/doc_fetcher.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/mongo_driver.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/mongo_utils.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/observe_multiplex.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/oplog_observe_driver.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/oplog_tailing.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/oplog_v2_converter.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/polling_observe_driver.js",
+        "/home/frromain/.meteor/packages/mongo/2.0.2/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/frromain/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/frromain/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/home/frromain/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/home/frromain/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/home/frromain/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/home/frromain/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/frromain/.meteor/packages/ecmascript/0.16.9/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/frromain/.meteor/packages/shell-server/0.6.0/web.browser/main.js",
+        "/home/frromain/.meteor/packages/shell-server/0.6.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/frromain/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/home/frromain/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/home/frromain/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/home/frromain/.meteor/packages/react-meteor-data/3.0.2/web.browser/index.js",
+        "/home/frromain/.meteor/packages/react-meteor-data/3.0.2/web.browser/suspense/index.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
